@@ -6,7 +6,7 @@ describe "members/new" do
       :name => "MyString",
       :email => "MyString",
       :location => "MyString",
-      :goals => "MyText"
+      :description => "MyText"
     ).as_new_record)
   end
 
@@ -18,7 +18,7 @@ describe "members/new" do
       assert_select "input#member_name[name=?]", "member[name]"
       assert_select "input#member_email[name=?]", "member[email]"
       assert_select "input#member_location[name=?]", "member[location]"
-      assert_select "textarea#member_goals[name=?]", "member[goals]"
+      assert_select "textarea#member_description[name=?]", "member[description]"
     end
   end
 end

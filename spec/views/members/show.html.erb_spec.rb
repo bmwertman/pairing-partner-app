@@ -6,7 +6,7 @@ describe "members/show" do
       :name => "Name",
       :email => "Email",
       :location => "Location",
-      :goals => "MyText"
+      :description => "MyText"
     ))
   end
 

@@ -7,13 +7,13 @@ describe "members/index" do
         :name => "Name",
         :email => "Email",
         :location => "Location",
-        :goals => "MyText"
+        :description => "MyText"
       ),
       stub_model(Member,
         :name => "Name",
         :email => "Email",
         :location => "Location",
-        :goals => "MyText"
+        :description => "MyText"
       )
     ])
   end

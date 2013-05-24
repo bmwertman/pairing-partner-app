@@ -3,8 +3,8 @@ require 'spec_helper'
 describe "technologies/show" do
   before(:each) do
     @technology = assign(:technology, stub_model(Technology,
-      :name => "Name",
-      :skill_level => 1
+      :name => "Name"#,
+      #:skill_level => 1
     ))
   end
 
